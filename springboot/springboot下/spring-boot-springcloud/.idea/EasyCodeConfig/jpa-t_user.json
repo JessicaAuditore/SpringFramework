@@ -1,0 +1,29 @@
+{
+  "obj" : null,
+  "name" : "TUser",
+  "comment" : null,
+  "fullColumn" : [ {
+    "obj" : null,
+    "name" : "id",
+    "comment" : null,
+    "type" : null,
+    "ext" : null
+  }, {
+    "obj" : null,
+    "name" : "email",
+    "comment" : null,
+    "type" : null,
+    "ext" : null
+  }, {
+    "obj" : null,
+    "name" : "lastName",
+    "comment" : null,
+    "type" : null,
+    "ext" : null
+  } ],
+  "pkColumn" : null,
+  "otherColumn" : null,
+  "savePackageName" : "com.example.consumeruser.tool",
+  "savePath" : "./provider-ticket/src/main/java/com/example/consumeruser/tool",
+  "saveModelName" : "provider-ticket"
+}

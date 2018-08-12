@@ -1,0 +1,10 @@
+dubbo:
+  application:
+    name: provider-ticket
+  protocol:
+    name: dubbo
+    port: 20880
+  registry:
+    address: zookeeper://111.231.66.120:2181
+  scan:
+    base-packages: com.example.providerticket.service
