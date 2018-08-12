@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE configuration
+        PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+    <!--别名定义-->
+    <typeAliases>
+        <package name="cn.itcast.ssm.po"></package>
+    </typeAliases>
+
+    <!--加载映射文件-->
+    <mappers>
+        <mapper resource="cn/itcast/ssm/orginalDao/User.xml"></mapper>
+        <!--批量加载mapper
+            和spring整合后，使用mapper扫描器，这里不需要配置了
+        -->
+        <!--<package name="cn.itcast.ssm.mapperDao"></package>-->
+    </mappers>
+
+</configuration>
